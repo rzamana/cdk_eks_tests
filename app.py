@@ -3,7 +3,7 @@
 from aws_cdk import core
 
 from eks_test.eks_test_stack import EksTestStack
-from eks_test.eks_cluster import EksClusterStack
+from eks_test.eks_cluster_stack import EksClusterStack
 
 
 app = core.App()
